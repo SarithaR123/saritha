@@ -1,0 +1,7 @@
+sentence = "hai good afternoon welcome to pyhon"
+l=[]
+words = sentence.split()
+for word in words:
+       item=(word,len(word))
+       l.append(item)
+       print(l)
